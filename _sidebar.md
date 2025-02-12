@@ -1,0 +1,5 @@
+* [<i class="fa-sharp-duotone fa-solid fa-house" style="margin-right:8px;"></i>Welcome](/ "Docs - First Accord")
+* [<i class="fa-solid fa-book-open-reader" style="margin-right:8px;"></i>Guide](guide.md "Guide - First Accord")
+    * [<i class="fa-sharp-duotone fa-solid fa-terminal" style="margin-right:8px;"></i>Command Line Interface](guide/github-cli.md)
+    * [<i class="fa-solid fa-globe" style="margin-right:8px;"></i>Github WebPage](guide/github-webpage.md)
+    * [<i class="fa-brands fa-github" style="margin-right:8px;"></i>Github Destop](guide/github-desktop.md)
