@@ -1,4 +1,11 @@
 
+# CLI Guide
+Welcome! In this section we will help you `step-by-step` on how to contribute in [First Accord]('https://github.com/STICKnoLOGIC/First-Accord') using the CLI or Command Line
+
+```NOTE
+Of course, we assumed that you already set-up your github account and already installed the git in your devices.
+```
+
 ### Fork The First-Accord repository
 <img  width="300" src="https://firstcontributions.github.io/assets/Readme/fork.png" alt="fork this repository" />
 
@@ -25,14 +32,17 @@ where "url you just copied" (without the quotation marks) is the url to this rep
 For example:
 
 ```bash
-git clone git@github.com:this-is-you/first-contributions.git
+git clone git@github.com:this-is-you/first-accord.git
 ```
 
 where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
 
 ## Make necessary changes and commit those changes
-
-Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
+Go to `contributors` Folder/Directory and copy the content of `__TEMPLATES__.json` (the template consist of basic/required parameter in json structure. To know more, [visit Json Structure](json-structure))
+```bash
+cd first-accord/contributors
+```
+Now in `contributors` Directory, Create a json file `this-is-you.json`(where `this-is-you` is your Github username), Open the created json file in a text editor and paste the content you copied from the `__TEMPLATE__.json`, edit the json file([click here to know more about Json Structure](json-structure)). Now, save the file.
 
 
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
@@ -42,8 +52,9 @@ If you go to the project directory and execute the command `git status`, you'll 
 Add those changes to the branch you just created using the `git add` command:
 
 ```bash
-git add Contributors.md
+git add this-is-you.json
 ```
+where `this-is-you` is your GitHub username.
 
 Now commit those changes using the `git commit` command:
 
