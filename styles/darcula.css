@@ -639,6 +639,16 @@ body {
   content: '-';
   padding-right: 4px;
   float: left;
+  margin-top: 8px;
+  margin-left: 1rem;
+}
+
+a::before{
+  margin-top: 8px !important;
+}
+
+.sidebar-nav ul li ul{
+  margin-left: 1rem;
 }
 .markdown-section h1,
 .markdown-section h2,
