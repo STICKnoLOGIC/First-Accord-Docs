@@ -7,9 +7,19 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIGMATV/docsify-theme-github/github.css">
-  <link rel="stylesheet" href="./styles/darcula.css">
+  <script>
+    var file = location.pathname.split( "/" ).pop();
+
+    var link = document.createElement( "link" );
+    link.type = "text/css";
+    link.rel = "stylesheet";
+    if(localStorage.getItem('snl_fa_theme')!=='true'){ 
+      link.href = './styles/monokai.css';
+    }else{
+      link.href = './styles/darcula.css';
+    }
+    document.getElementsByTagName( "head" )[0].appendChild( link );
+  </script>
   <!-- Latest -->
 
 </head>
@@ -33,5 +43,6 @@
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
  </body>
 </html>

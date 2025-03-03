@@ -3,4 +3,4 @@
     * [<i class="fa-sharp-duotone fa-solid fa-terminal" style="margin-right:8px;"></i>Command Line Interface](guide/github-cli.md "Docs - CLI")
     * [<i class="fa-solid fa-globe" style="margin-right:8px;"></i>Github WebPage](guide/github-webpage.md "Docs - WebPage")
     * [<i class="fa-brands fa-github" style="margin-right:8px;"></i>Github Destop](guide/github-desktop.md "Docs - Desktop")
-* [Json Structure](json-structure.md "Docs - Json Structure")
+* [JSON Structure](json-structure.md "Docs - Json Structure")
