@@ -660,7 +660,6 @@ a::before{
 .markdown-section a {
   color: #1a73e8;
   font-weight: 600;
-  text-decoration: none;
 }
 .markdown-section h1 {
   font-size: 2rem;
