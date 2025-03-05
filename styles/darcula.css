@@ -47,6 +47,7 @@ input[type='search'] {
   background: #21222a;
   border-color: #21222a;
   color: rgb(192, 192, 192);
+  border-radius: 8px;
 }
 .search {
   border-bottom: 1px solid #191919;

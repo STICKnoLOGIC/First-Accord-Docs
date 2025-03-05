@@ -44,9 +44,10 @@ div#app:empty:before {
   z-index: 5;
 }
 input[type='search'] {
-  background: #21222a;
+  background: rgb(223, 223, 223);
   border-color: #21222a;
-  color: rgb(192, 192, 192);
+  color:#21222a;
+  border-radius: 8px;
 }
 .search {
   border-bottom: 1px solid #191919;
