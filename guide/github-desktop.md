@@ -90,6 +90,6 @@ Let's help you get started with contributing to other projects. I recommend begi
 ## Tutorials Using Other Tools
 | <img alt="cli" src="https://raw.githubusercontent.com/felixse/FluentTerminal/refs/heads/master/Icons/Icon_no_margin.png" width="100"> | <img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100> | <img alt="Github WebPage" src="/assets/web.svg" width=100> |
 | :------------------: | :------------------: | :------------------: | 
-| [Command Line Interface](guide/github-cli) | [Visual Studio Code](docs/gui-tool-tutorials/github-vscode) | [Github WebPage](guide/github-webpage)
+| [Command Line Interface](guide/github-cli) | [Visual Studio Code](guide/github-vscode) | [Browser](guide/github-browser)
 
 

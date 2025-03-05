@@ -102,5 +102,5 @@ Let's help you get started with contributing to other projects. I recommend begi
 ## Tutorials Using Other Tools
 | <img alt="cli" src="https://raw.githubusercontent.com/felixse/FluentTerminal/refs/heads/master/Icons/Icon_no_margin.png" width="100"> | <img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"> | <img alt="Github Webpage" src="/assets/web.svg" width=100> |
 | :------------------: | :------------------: | :------------------: |  
-| [Command Line Interface](guide/github-cli) | [GitHub Desktop](guide/github-desktop) |[Github WebPage](guide/github-webpage)
+| [Command Line Interface](guide/github-cli) | [GitHub Desktop](guide/github-desktop) |[Browser](guide/github-browser)
 

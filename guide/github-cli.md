@@ -8,7 +8,8 @@ If you dont have git in your device, [Install the git](https://github.com/git-gu
 <img  width="300" src="./assets/fork.png" alt="fork this repository" />
 
 [Fork](https://github.com/STICKnoLOGIC/First-Accord/fork) the First Accord repository by clicking the fork button at the top of [this page](https://github.com/STICKnoLOGIC/First-Accord/). This will create a copy of this repository in your account.
-<br>
+
+
 ### Cloning the Repository
 
 <img  width="300" src="./assets/cli/clone.png" alt="clone this repository" />
@@ -96,4 +97,4 @@ Let's help you get started with contributing to other projects. I recommend begi
 ## Tutorials Using Other Tools
 | <img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"> | <img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100> | <img alt="Github Webpage" src="/assets/web.svg" width=100> |
 | :------------------: | :------------------: | :------------------: | 
-| [GitHub Desktop](guide/github-desktop) | [Visual Studio Code](docs/gui-tool-tutorials/github-vscode) | [Github WebPage](guide/github-webpage)
+| [GitHub Desktop](guide/github-desktop) | [Visual Studio Code](guide/github-vscode) | [Browser](guide/github-browser)
