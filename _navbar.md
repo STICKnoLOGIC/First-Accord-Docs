@@ -1,2 +1,2 @@
 * [<i class="fa-solid fab fa-github" style="margin-right:4px;"></i>Github repo](https://github.com/STICKnoLOGIC/First-Accord)
-* [<i class="fa-solid fa-fire" style="margin-right:4px;"></i>DONATE](https://buymeacofee.com/)
+* [<i class="fa-solid fa-fire" style="margin-right:4px;"></i>DONATE](https://buymeacoffee.com/STICKnoLOGIC)
