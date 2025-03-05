@@ -2,6 +2,8 @@
 # CLI Guide
 Welcome! In this section, we will help you `step-by-step` on how to contribute to [First Accord]('https://github.com/STICKnoLOGIC/First-Accord') using the CLI or Command Line
 
+If you dont have git in your device, [Install the git](https://github.com/git-guides/install-git).
+
 ### Fork The First-Accord repository
 <img  width="300" src="./assets/fork.png" alt="fork this repository" />
 
