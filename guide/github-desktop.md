@@ -1,23 +1,20 @@
-# Github Desktop
+## Github Desktop
 Reading articles and watching tutorials is helpful, but hands-on experience is best. This project will guide you through making your first contribution. Stay relaxed, and you'll learn better. Follow the steps below to get started. It will be fun!
 
-If you don't have GitHub Desktop on your machine, [install it](https://desktop.github.com/).
-
-
+If you don't have GitHub Desktop on your device, [install it](https://desktop.github.com/).
 
 ## Fork this repository
 
 <img width="300" src="/assets/fork.png" alt="fork this repository" />
 
-Fork this repo by clicking on the fork button on the top right of this page.
-This will create a copy of this repository in your account.
+Click the fork button in the upper right corner of [this page](https://github.com/STICKnoLOGIC/first-accord) to fork the repository. A clone of this repository will be created in your account as a result.
 
 ## Clone the repository
 
-Now clone this repo to your machine.
+Now, clone the repository you just forked to your machine.
 
  > [!warning|label:Important]
- > __DO NOT CLONE THE ORIGINAL REPO__. Go to your fork and clone it.
+ > __DO NOT CLONE THE ORIGINAL REPO__. Clone your forked repository.
 
 To clone the repo, click on "Clone or Download" and then click on "Open in Desktop".
 
@@ -29,33 +26,19 @@ A pop up window will open. Click on "Open GitHubDesktop.exe".
 
 After you click on "Open GitHubDesktop.exe" the contents will be downloaded to your computer.
 
-<img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-downloaded.png" alt="clone this repository" />
+<img src="/assets/desktop/app-open.png" alt="open app" />
 
-Now you have copied the contents of the first-contributions repository in github to your computer.
-
-## Create a branch
-
-Now create a branch by clicking on the "Current branch" icon at the top and then click on "New branch":
-
-<img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-create-branch.png" alt="make a branch" />
-
-Name your branch <add-your-name>. For example, "add-james-smith"
-
-<img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-create-branch-name.png" alt="name your branch" />
-
-Click on `Create branch`
+Now you have copied the contents of the First Accord repository in github to your computer.
 
 ## Make necessary changes and commit those changes
 
-Now, go to history tab and open `Contributors.md` file in a text editor by right clicking and open in text editor. Scroll to the bottom of the page and add your name to it, then save the file.
+ Go to the `contributors` Folder/Directory and copy the content of `__TEMPLATES__.json` (the template consists of essential/required parameters in JSON structure. To know more, [visit JSON Structure](json-structure))
 
-Example: If your name is James Smith, It should look like this.
+Now in `contributors` Directory, Create a json file `this-is-you.json`(where `this-is-you` is your Github username, in my case its `sticknologic.json`), Open the created json file in a text editor/IDE you prefer and paste the content you copied from the `__TEMPLATE__.json`, edit the json file([click here to know more about Json Structure](json-structure)). Now, save the file.
 
-\[James Smith](https://github.com/jamessmith)
+You can see that there are changes to contributors Folder as you create your JSON file and they have been added to the Github Desktop.
 
-You can see that there are changes to Contributors.md and they have been added to the Github Desktop.
-
-<img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-status.png" alt="check status" />
+<img src="/assets/desktop/status.png" alt="check status" />
 
 Now commit those changes:
 
@@ -63,47 +46,50 @@ Write the message "Add `<your-name>` to Contributors list" in the _summary_ fiel
 
 Replace `<your-name>` with your name.
 
-Click on the button that says `Commit to add-your-name`.
+Click on the button that says `Commit to main`.
 
-<img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-commit1.png" alt="commit your changes" />
+<img src="/assets/desktop/commit1.png" alt="commit your changes" />
 
 At the bottom, you can see that the commit has been created.
 
-<img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-commit2.png" alt="commit your changes" />
+<img src="/assets/desktop/commit2.png" alt="commit your changes" />
 
 ## Push changes to github
 
 Click on File->Options and sign-in to Github.com. Type in your Github username and password.
 
-<img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-sign-in.png" alt="log-in to Github" />
+<img src="/assets/desktop/sign-in.png" alt="log-in to Github" />
 
-Click the `Publish` button on the top right.
+Click the `Push origin` button.
 
-<img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/dt1-publish1.png" alt="push your changes" />
+<img src="/assets/desktop/push.png" alt="push your changes" />
 
 ## Submit your changes for review
 
 If you go to your repository on github, you'll see `Compare & pull request` button. click on that button.
 
-<img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/compare-and-pull.png" alt="create a pull request" />
+<img src="/assets/compare-and-pull.png" alt="create a pull request" />
 
 Now submit the pull request.
 
-<img src="https://firstcontributions.github.io/assets/gui-tool-tutorials/github-desktop-tutorial/submit-pull-request.png" alt="submit pull request" />
+<img src="/assets/submit-pull-request.png" alt="submit pull request" />
 
-Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+I'll be merging all of your modifications into the project's main branch shortly. Once the changes have been merged, you will receive an email notification. 
 
 ## Where to go from here?
 
-Congrats! You just completed the standard _fork -> clone -> edit -> PR_ workflow that you'll encounter often as a contributor!
+Congratulations! You have successfully completed the standard workflow: `fork -> clone -> edit -> pull request` that you will frequently encounter as a contributor.
 
-Celebrate your contribution and share it with your friends and followers by going to [web app](https://firstcontributions.github.io#social-share).
+You are welcome to join our community or group if you need assistance or have any questions.
 
-You can join our slack team in case you need any help or have any questions. [Join slack team](https://join.slack.com/t/firstcontributors/shared_invite/zt-1hg51qkgm-Xc7HxhsiPYNN3ofX2_I8FA).
+[![Join Telegram Group](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/+D51ix1qENBs0ZWRI)
+[![Join Discord Server](https://dcbadge.limes.pink/api/server/https://discord.gg/zkspfFwqDg?style=flat)](https://discord.com)
 
-### [Additional material](../additional-material/git_workflow_scenarios/additional-material.md)
+Let's help you get started with contributing to other projects. I recommend beginning with [First Contribution](https://github.com/firstcontributions/first-contributions). This project was heavily inspired by it, just so you know!
 
 ## Tutorials Using Other Tools
+| <img alt="cli" src="https://raw.githubusercontent.com/felixse/FluentTerminal/refs/heads/master/Icons/Icon_no_margin.png" width="100"> | <img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100></a> | <a href="gui-tool-tutorials/sourcetree-macos-tutorial.md"><img alt="Sourcetree App" src="https://wac-cdn.atlassian.com/dam/jcr:81b15cde-be2e-4f4a-8af7-9436f4a1b431/Sourcetree-icon-blue.svg" width=100></a> |
+| :------------------: | :------------------: | :------------------: | 
+| [Command Line Interface](guide/github-cli) | [Visual Studio Code](docs/gui-tool-tutorials/github-vscode) | [Github WebPage](guide/github-webpage)
 
-[Back to main page](https://github.com/firstcontributions/first-contributions#tutorials-using-other-tools)
 
