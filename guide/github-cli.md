@@ -65,7 +65,7 @@ replacing `your-name` with your name.
 Push your changes using the command `git push`:
 
 ```bash
-git push
+git push -u origin
 ```
 
 ## Submit your changes for review
