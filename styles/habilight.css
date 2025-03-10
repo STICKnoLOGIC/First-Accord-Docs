@@ -748,13 +748,13 @@ a::before{
 }
 .token.boolean,
 .token.number {
-  color: #f3fa9a;
+  color: #008cff;
 }
 .token.punctuation {
   color: #0078c8;
 }
 .token.property {
-  color: #f3fa9a;
+  color: #ff00d4;
 }
 .token.tag {
   color: #ee81c3;
