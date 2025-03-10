@@ -48,7 +48,7 @@ I'll be merging all of your modifications into the project's main branch shortly
 
 ## Where to go from here?
 
-Congratulations! You have successfully completed the standard workflow: `fork -> clone -> edit -> pull request` that you will frequently encounter as a contributor.
+Congratulations! You have successfully completed the standard workflow: `fork -> edit -> pull request` using your Browser that you will frequently encountser as a contributor.
 
 You are welcome to join our community or group if you need assistance or have any questions.
 

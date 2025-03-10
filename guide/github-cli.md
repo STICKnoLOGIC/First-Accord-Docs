@@ -95,6 +95,6 @@ You are welcome to join our community or group if you need assistance or have an
 Let's help you get started with contributing to other projects. I recommend beginning with [First Contribution](https://github.com/firstcontributions/first-contributions). This project was heavily inspired by it, just so you know!
 
 ## Tutorials Using Other Tools
-| <img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"> | <img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100> | <img alt="Github Webpage" src="/assets/web.svg" width=100> |
+| <img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"> | <img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100> | <i class="fa-solid fab fa-chrome fa-6x" style="color:lightblue"></i> |
 | :------------------: | :------------------: | :------------------: | 
 | [GitHub Desktop](guide/github-desktop) | [Visual Studio Code](guide/github-vscode) | [Browser](guide/github-browser)
