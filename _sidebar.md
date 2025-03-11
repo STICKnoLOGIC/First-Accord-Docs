@@ -4,4 +4,4 @@
     * [<i class="fa-brands fa-github" style="margin-right:8px;"></i>Github Destop](guide/github-desktop.md "Docs - Desktop")
     * [<img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=12 style="margin-right:8px">Github VisualStudio Code](guide/github-vscode.md "Docs - Visual Studio Code")
     * [<i class="fa-regular fab fa-chrome" style="margin-right:8px"></i>Browser](guide/github-browser.md "Docs - WebPage")
-* [JSON Structure](json-structure.md "Docs - Json Structure")
+* [<i class="fa-solid fa-folder-open" style="margin-right:8px;"></i>JSON Structure](json-structure.md "Docs - Json Structure")
