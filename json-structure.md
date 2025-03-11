@@ -1,11 +1,13 @@
 # JSON Structure <!-- {docsify-ignore} -->
 
-To contribute in `First Accord`, you need to create a new JSON file in the `contributors` directory through a pull request. For example, if your GitHub username used to pull request is `STICKnoLOGIC`, you would create a file named `sticknologic.json` in the `contributors` directory. The full path would be `contributors/example.json`.
+To contribute in `First Accord`, you must generate a new JSON file in the `contributors` folder by means of a pull request. For instance, if your GitHub username for the pull request is `STICKnoLOGIC`, you should create a file called `sticknologic.json` in the `contributors` folder. The complete path would be `contributors/example.json`.
 
 ## Filename
 
 > [!NOTE]
-> The name of the JSON file must match your GitHub username that you use when submitting a pull request; if it doesn't match, it will be automatically closed and will not be merged into the main repository. Nonetheless, your JSON filename needs to satisfy the subsequent requirements: 
+> The JSON file's name must correspond to your GitHub username that you use when submitting a pull request; if it does not correspond, it will be automatically closed and won't be merged into the repository. However, your JSON filename must meet the following criteria: 
+
+
 
 the filename of the JSON: 
 
@@ -63,23 +65,123 @@ the filename of the JSON:
 
 ## Structure
 #### owner (required)
-You need to specify some information about yourself here. This is so that you can be contacted if required. In the owner object, the fields name and email are required. You can add more information in this object if you want.
+You must provide certain details about yourself in this section. This ensures that you can be reached if necessary. In the owner object, the fields email and name are mandatory. You may include additional details in this object if you wish.
+    
+- ##### name (required|string)
+Your name or how you wish to be addressed.
+
+- ##### email (required|string)
+Email address where we can reach you if there are any issues or updates concerning your contribution.
+
+- ##### github (optional|string)
+Your GitHub link (the GitHub link must match the one you use when submitting a pull request)
+
+
+__Example:__
 ```json
 {
+    //other value
     "owner":{
-        "name":"Display Name You want to show to whole open source community"
+        "name":"Display Name You want to show to whole open source community",
+        "emai":"your_handle@your_site.TLD",
+        "github":"https://github.com/Your-Username"
     }
 }
 ```
 
 #### description(optional|string)
-Describe yourself, boast all you want, exxagerate things about you. This is purely for documentation purpose and is optional. (default `"This user is lazy enough to not edit this section"`)
+Portray yourself, brag as much as you'd like, exagerate details about yourself. This is solely for documentation purposes and is optional. (default `"This user is lazy enough to not edit this section"`)
+
+__Example:__
+```json
+{
+    // other value
+    "description":"A Valuable Information About Me, You can use code snippet like this: <p style=\"snl-p\"> but it will render as is as we escape html string to avoid malicious code injection! </p>. \n\n\n any whitespace/s including tab, space and enter/new line will be removed."
+}
+```
 
 #### use_github_avatar (requied|bool|default:true)
-Display your Github Avatar if set to `true`, otherwise use [`custom_avatar_url`](#custom_avatar_url-optionalstring).
+Show your Github Avatar if `true`; otherwise, use [`custom_avatar_url`](#custom_avatar_url-optionalstring)
+
+__Example:__
+```json
+{
+    //other value
+    "use_github_avatar":true //or false
+}
+```
 
 #### display_float_text (optional|string)
-Show and float this text randomly in [main page](/). we display this text as a proof that you are one of the contributers of `First Accord` even you delete your contributed json. (if you change this each pull request, the previous `display_float_text` will be retain) (the more you have successfully merged PR, the higher chance your `display_float_text` will show in main page).
+Display and randomly float this text on the [main page](/). This text serves as evidence that you are a contributor of `First Accord`, even if you remove your contributed JSON. (If you modify this each time you submit a pull request, the prior `display_float_text` will be preserved.) (The more successfully merged PRs you have, the greater the chance your `display_float_text` will appear on the [main page](/)). It must contain a minimum of 4 characters and cannot exceed 12 characters.
+
+> [!WARNING]
+> __NO OFFENSIVE LANGUAGE OR ANY INAPPROPRIATE CONTENT THAT COULD HARM THE WEBSITE, THE URL, THE REPOSITORY, AND THE COMMUNITY.__
+
+__Example:__
+```json
+{
+    //other value
+    "display":"Any_Name" // atleast 4 character and must not exceed to 12 character 
+}
+```
 
 #### custom_avatar_url (optional|string)
-Use to show Avatar if the `use_github_avatar` set to false. if empty, use the github avatar as a default avatar.
+Utilize to display Avatar if the `use_github_avatar` is set to false. If empty, use the GitHub avatar as the default avatar.
+
+__Example:__
+```json
+{
+    //other value
+    "":"https://valid.path/for/your/avatar/or/pic.png"
+}
+```
+
+#### social (optional)
+A selected collection of your Social Media Profiles. You can include up to 5 social media accounts.
+
+__Usage:__
+
+"`Key`" : "__Value__"
+
+Where `Key` represents the class name of icons from Font Awesome (e.g. fa-facebook, fa-discord), to explore and discover additional icons, [click here!](https://fontawesome.com/search). 
+
+> [!NOTE]
+> The Project only accepts `free` icons from Font Awesome. (\*cough\*.. sponsor? Is there anyone?).
+
+While __Value__ is your `Social Media URL`. 
+
+__Example:__
+```json
+{
+    //other value
+    "social":{ 
+        "fa-facebook":"https://facebook.com/your_handler",
+        "fa-square-bluesky":"https://bsky.app/profile/your_handler",
+        "fa-linkedin":"https://linkedin.com/in/your_handler",
+        "fa-x-twitter":"https://x.com/your_handler"
+    }
+}
+```
+
+#### my_top_resources (optional)
+Share the website you visit the most often to learn new information! (Don't be stingy! share it with us!). You may include up to three (3) resources. 
+
+__Usage:__
+
+"`Key`" : "__Value__"
+
+Where `Key` represents the text shown on the main page. 
+
+While __Value__ is the Link/URL. 
+
+__Example:__
+```json
+{
+    //other value
+    "my_top_resources":{
+        "Daily.Dev":"https://app.daily.dev",
+        "Daily.Dev2":"https://app.daily.dev",
+        "Daily.Dev3":"https://app.daily.dev"
+    }
+}
+```
