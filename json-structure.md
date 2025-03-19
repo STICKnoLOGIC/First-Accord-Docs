@@ -46,10 +46,10 @@ the filename of the JSON:
         "github":"https://github.com/STICKnoLOGIC"
     },
     "social":{ 
-        "fa-facebook":"https://facebook.com/STICKnoLOGIC",
-        "fa-square-bluesky":"https://bsky.app/profile/sticknologic.bsky.social",
-        "fa-linkedin":"https://linkedin.com/in/STICKnoLOGIC",
-        "fa-x-twitter":"https://x.com/STICKnoLOGIC"
+        "fa-brands fa-facebook":"https://facebook.com/STICKnoLOGIC",
+        "fa-brands fa-square-bluesky":"https://bsky.app/profile/sticknologic.bsky.social",
+        "fa-brands fa-linkedin":"https://linkedin.com/in/STICKnoLOGIC",
+        "fa-brands fa-x-twitter":"https://x.com/STICKnoLOGIC"
     },
     "my_top_resources":{
         "StackOverflow":"https://stackoverflow.com",
@@ -143,7 +143,7 @@ __Usage:__
 
 "`Key`" : "__Value__"
 
-Where `Key` represents the class name of icons from Font Awesome (e.g. fa-facebook, fa-discord), to explore and discover additional icons, [click here!](https://fontawesome.com/search). 
+Where `Key` represents the class name of icons from Font Awesome (e.g. `"fa-brands fa-facebook"`), to explore and discover additional icons, [click here!](https://fontawesome.com/search). 
 
 > [!NOTE]
 > The Project only accepts `free` icons from Font Awesome. (\*cough\*.. sponsor? Is there anyone?).
@@ -155,10 +155,10 @@ __Example:__
 {
     //other value
     "social":{ 
-        "fa-facebook":"https://facebook.com/your_handler",
-        "fa-square-bluesky":"https://bsky.app/profile/your_handler",
-        "fa-linkedin":"https://linkedin.com/in/your_handler",
-        "fa-x-twitter":"https://x.com/your_handler"
+        "fa-brands fa-facebook":"https://facebook.com/your_handler",
+        "fa-brands fa-square-bluesky":"https://bsky.app/profile/your_handler",
+        "fa-brabds fa-linkedin":"https://linkedin.com/in/your_handler",
+        "fa-brands fa-x-twitter":"https://x.com/your_handler"
     }
 }
 ```
