@@ -1,9 +1,9 @@
 # Browser Guide
 
-Contributing to a GitHub project for the first time might seem a little intimidating, but don't worry—it's simpler than you think! Whether you're fixing a typo or adding a cool new feature, every contribution matters and helps make projects better. In this quick and friendly guide, I'll walk you through the steps to make your first contribution using a browser. Let's jump in and get you started on your GitHub journey! 
+Contributing to a GitHub project for the first time might seem a little intimidating, but don't worry—it's simpler than you think! Whether you're fixing a typo or adding a cool new feature, every contribution matters and helps make projects better. In this quick and friendly guide, I'll walk you through the steps to make your first contribution using a browser. Let's jump in and get you started on your GitHub journey!
 
 ### Fork The First-Accord repository
-<img  width="300" src="./assets/fork.png" alt="fork this repository" />
+<img  width="300" src="/assets/fork.png" alt="fork this repository" />
 
 [Fork](https://github.com/STICKnoLOGIC/First-Accord/fork) the First Accord repository by clicking the fork button at the top of [this page](https://github.com/STICKnoLOGIC/First-Accord/). This will create a copy of this repository in your account.
 
@@ -44,7 +44,7 @@ Now submit the pull request.
 
 <img src="/assets/submit-pull-request.png" alt="submit pull request" />
 
-I'll be merging all of your modifications into the project's main branch shortly. Once the changes have been merged, you will receive an email notification. 
+I'll be merging all of your modifications into the project's main branch shortly. Once the changes have been merged, you will receive an email notification.
 
 ## Where to go from here?
 
@@ -59,5 +59,5 @@ Let's help you get started with contributing to other projects. I recommend begi
 
 ## Tutorials Using Other Tools
 | <img alt="cli" src="https://raw.githubusercontent.com/felixse/FluentTerminal/refs/heads/master/Icons/Icon_no_margin.png" width="100"> | <img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"> | <img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100> |
-| :------------------: | :------------------: | :------------------: | 
-| [Command Line Interface](guide/github-cli) | [GitHub Desktop](guide/github-desktop) | [Visual Studio Code](docs/gui-tool-tutorials/github-vscode) 
+| :------------------: | :------------------: | :------------------: |
+| [Command Line Interface](guide/github-cli) | [GitHub Desktop](guide/github-desktop) | [Visual Studio Code](docs/gui-tool-tutorials/github-vscode)

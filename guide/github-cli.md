@@ -5,18 +5,18 @@ Welcome! In this section, we will help you `step-by-step` on how to contribute t
 If you dont have git in your device, [Install the git](https://github.com/git-guides/install-git).
 
 ### Fork The First-Accord repository
-<img  width="300" src="./assets/fork.png" alt="fork this repository" />
+<img  width="300" src="/assets/fork.png" alt="fork this repository" />
 
 [Fork](https://github.com/STICKnoLOGIC/First-Accord/fork) the First Accord repository by clicking the fork button at the top of [this page](https://github.com/STICKnoLOGIC/First-Accord/). This will create a copy of this repository in your account.
 
 
 ### Cloning the Repository
 
-<img  width="300" src="./assets/cli/clone.png" alt="clone this repository" />
+<img  width="300" src="/assets/cli/clone.png" alt="clone this repository" />
 
 Now, clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click the code button, then on the HTTPS tab, and then click the _copy to clipboard_ icon.
 
-<img  width="300" src="./assets/cli/copy-to-clipboard.png" alt="copy URL to clipboard" />
+<img  width="300" src="/assets/cli/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
 Open a terminal and run the following git command:
 
@@ -46,7 +46,7 @@ Now in `contributors` Directory, Create a json file `this-is-you.json`(where `th
 
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
 
-<img width="450" src="./assets/cli/git-status.png" alt="git status" />
+<img width="450" src="/assets/cli/git-status.png" alt="git status" />
 
 Add those changes to the branch you just created using the `git add` command:
 
@@ -75,13 +75,13 @@ git push -u origin
 
 If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
 
-<img src="./assets/compare-and-pull.png" alt="create a pull request" />
+<img src="/assets/compare-and-pull.png" alt="create a pull request" />
 
 Now submit the pull request.
 
-<img src="./assets/submit-pull-request.png" alt="submit pull request" />
+<img src="/assets/submit-pull-request.png" alt="submit pull request" />
 
-I'll be merging all of your modifications into the project's main branch shortly. Once the changes have been merged, you will receive an email notification. 
+I'll be merging all of your modifications into the project's main branch shortly. Once the changes have been merged, you will receive an email notification.
 
 ## Where to go from here?
 
@@ -96,5 +96,5 @@ Let's help you get started with contributing to other projects. I recommend begi
 
 ## Tutorials Using Other Tools
 | <img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"> | <img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100> | <i class="fa-solid fab fa-chrome fa-6x" style="color:lightblue"></i> |
-| :------------------: | :------------------: | :------------------: | 
+| :------------------: | :------------------: | :------------------: |
 | [GitHub Desktop](guide/github-desktop) | [Visual Studio Code](guide/github-vscode) | [Browser](guide/github-browser)
