@@ -34,7 +34,7 @@ The JSON File you just contributed will be rendered like the picture above, toge
 
 <img src="/assets/objective2.png" alt="light output" />
 
-Your JSON File you contributed contains "display_float_text" value (if not, we use your GitHub username as default) that we will float and display it in the [main page](/).
+Your JSON File you contributed contains "display_float_text" value (if not, we use your GitHub username as default) that we will float and display it in the [main page](../).
 
 ### and?
 You are good to go and start your first contribution in [this Repository](https://github.com/STICKnoLOGIC/First-Accord) by clicking the link to the tools available on your device below.
