@@ -19,18 +19,12 @@
 # First Accord
  First Accord is an open source project designed to help beginners dive into contributing. It's a simple and beginner-friendly way to get started with GitHub and make your very first contribution. The process is quick, straightforward, and perfect for building your confidence!
 
-## Documentation
-<a href="./docs" alt="rtfd">
-    <img alt="rtfd" src="https://img.shields.io/badge/Readthedocs-%23000000.svg?style=flat&logo=readthedocs&logoColor=white" >
-</a>
-
 ## Love The Project?
 You can Support us by:
 * Contributing to the project (Fixing typo, Adding Features)
 * Support us financially:
 
   [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/STICKnoLOGIC)
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=flat&logo=paypal&logoColor=white)](https://paypal.me/yhalSTICKnoLOGIC)
   [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=flat&logo=paypal&logoColor=white)](https://paypal.me/yhalSTICKnoLOGIC)
 
 ## Contributor
