@@ -30,6 +30,18 @@ After you click on "Open GitHubDesktop.exe" the contents will be downloaded to y
 
 Now you have copied the contents of the First Accord repository in github to your computer.
 
+## Create a Branch
+
+Now, create a new branch by clicking on the "Current branch" icon at the top and then click on "New branch".
+
+<img src="/assets/desktop/app-new-branch.png" alt="create branch" />
+
+Name your branch . For example, "sticknologic-name-branch".
+
+<img src="/assets/desktop/app-name-branch.png" alt="name branch" />
+
+Then click on `Create branch` button`.
+
 ## Make necessary changes and commit those changes
 
  Go to the `contributors` Folder/Directory and copy the content of `__TEMPLATES__.json` (the template consists of essential/required parameters in JSON structure. To know more, [visit JSON Structure](json-structure))
@@ -74,7 +86,7 @@ Now submit the pull request.
 
 <img src="/assets/submit-pull-request.png" alt="submit pull request" />
 
-I'll be merging all of your modifications into the project's main branch shortly. Once the changes have been merged, you will receive an email notification. 
+I'll be merging all of your modifications into the project's main branch shortly. Once the changes have been merged, you will receive an email notification.
 
 ## Where to go from here?
 
@@ -89,7 +101,7 @@ Let's help you get started with contributing to other projects. I recommend begi
 
 ## Tutorials Using Other Tools
 | <img alt="cli" src="https://raw.githubusercontent.com/felixse/FluentTerminal/refs/heads/master/Icons/Icon_no_margin.png" width="100"> | <img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100> | <i class="fa-solid fab fa-chrome fa-6x" style="color:lightblue"></i> |
-| :------------------: | :------------------: | :------------------: | 
+| :------------------: | :------------------: | :------------------: |
 | [Command Line Interface](guide/github-cli) | [Visual Studio Code](guide/github-vscode) | [Browser](guide/github-browser)
 
 
