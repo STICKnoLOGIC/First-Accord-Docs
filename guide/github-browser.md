@@ -2,10 +2,36 @@
 
 Contributing to a GitHub project for the first time might seem a little intimidating, but don't worry—it's simpler than you think! Whether you're fixing a typo or adding a cool new feature, every contribution matters and helps make projects better. In this quick and friendly guide, I'll walk you through the steps to make your first contribution using a browser. Let's jump in and get you started on your GitHub journey!
 
-### Fork The First-Accord repository
+## Fork The First-Accord repository
 <img  width="300" src="/assets/fork.png" alt="fork this repository" />
 
 [Fork](https://github.com/STICKnoLOGIC/First-Accord/fork) the First Accord repository by clicking the fork button at the top of [this page](https://github.com/STICKnoLOGIC/First-Accord/). This will create a copy of this repository in your account.
+
+## Create a Branch
+Copy the following link and surf it in your Browser:
+
+`
+https://GitHub.com/github-username/First-Accord/branches
+`
+
+Where `github-username` is your GitHub Username.
+
+For Example: (my Github Username is `STICKnoLOGIC`)
+
+`
+https://GitHub.com/STICKnoLOGIC/First-Accord/branches
+`
+
+<img src="/assets/web/branch.png" alt="create branch">
+
+Then click the `New branch` button at the top-right
+
+<img src="/assets/web/branch2.png" alt="name branch">
+
+and type in the name of your new branch, for example `sticknologic-name-branch`, make sure you select `main` as the source.
+
+Click the `Create new Branch` and a branch will be created.
+
 
 ## Make necessary changes and commit those changes
 
