@@ -48,6 +48,15 @@ Where `this-is-you` is your Github username.
 
 You should see a status popup on the bottom right of Visual Studio Code. After it has finished, you can open up the cloned repository (now a folder on your machine) using the buttons in the dialog.
 
+## Create a Branch
+Open up the command palette again by pressing `F1` or `CTRL + SHIFT + P`. Type in `branch` and select the create branch command from there.
+
+<img src="/assets/vscode/branch.png" alt="Branch1" />
+
+In the next step type in the name of your new branch, for example `sticknologic-new-branch`. Press enter and the branch will be created.
+
+<img src="/assets/vscode/branch2.png" alt="Branch2" />
+
 ## Make necessary changes
 
 Go to the `contributors` Folder/Directory and copy the content of `__TEMPLATES__.json` (the template consists of essential/required parameters in JSON structure. To know more, [visit JSON Structure](json-structure))
@@ -70,7 +79,13 @@ Enter text in the field above the explorer and hit the checkmark. The modificati
 
 <img src="/assets/vscode/push.png" alt="Stashed Files">
 
-Tap the three-dot icon to access the menu, and then choose the `Publish Branch` option. This should initiate a prompt for you to enter your GitHub credentials.
+(Orange Box) You can Click the `Publish Branch` button
+
+or
+
+(Red Box) Tap the three-dot icon to access the menu, Click `Branch` and then choose the `Publish Branch` option.
+
+This should initiate a prompt for you to enter your GitHub credentials.
 
 <img src="/assets/vscode/gh-auth.png" alt="gh auth">
 
@@ -86,7 +101,7 @@ Now submit the pull request.
 
 <img src="/assets/submit-pull-request.png" alt="submit pr" />
 
-I'll be merging all of your modifications into the project's main branch shortly. Once the changes have been merged, you will receive an email notification. 
+I'll be merging all of your modifications into the project's main branch shortly. Once the changes have been merged, you will receive an email notification.
 
 ## Where to go from here?
 
@@ -101,6 +116,5 @@ Let's help you get started with contributing to other projects. I recommend begi
 
 ## Tutorials Using Other Tools
 | <img alt="cli" src="https://raw.githubusercontent.com/felixse/FluentTerminal/refs/heads/master/Icons/Icon_no_margin.png" width="100"> | <img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"> | <i class="fa-solid fab fa-chrome fa-6x" style="color:lightblue"></i> |
-| :------------------: | :------------------: | :------------------: |  
+| :------------------: | :------------------: | :------------------: |
 | [Command Line Interface](guide/github-cli) | [GitHub Desktop](guide/github-desktop) |[Browser](guide/github-browser)
-
