@@ -34,11 +34,26 @@ git clone https://www.github.com/this-is-you/first-accord.git
 
 Where `this-is-you` is your GitHub username. Here, you're copying the contents of the first-contributions repository on GitHub to your computer.
 
+## Create a Branch
+Go to the repository directory on your computer (if you are not already there):
+
+```bash
+cd first-accord
+```
+Now create a branch command:
+```bash
+git checkout -b your-branch-name
+```
+For Example:
+```bash
+git checkout -b sticknologic-branch
+```
+
 ## Make necessary changes and commit those changes
  Go to the `contributors` Folder/Directory and copy the content of `__TEMPLATES__.json` (the template consists of essential/required parameters in JSON structure. To know more, [visit JSON Structure](json-structure))
 
 ```bash
-cd first-accord/contributors
+cd contributors
 ```
 
 Now in `contributors` Directory, Create a json file `this-is-you.json`(where `this-is-you` is your Github username), Open the created json file in a text editor and paste the content you copied from the `__TEMPLATE__.json`, edit the json file([click here to know more about Json Structure](json-structure)). Now, save the file.
@@ -68,7 +83,7 @@ replacing `your-name` with your name.
 Push your changes using the command `git push`:
 
 ```bash
-git push -u origin
+git push -u origin your-branch-name
 ```
 
 ## Submit your changes for review
