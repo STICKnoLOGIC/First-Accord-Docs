@@ -1,10 +1,10 @@
 # Getting Started
 > [!WARNING|label: Before You start]
-> PLEASE READ THIS!
-> Since this is an "Open Source" project/repository, we kindly remind you to refrain from disclosing any unnecessary personal information that could be accessed by individuals with ill intentions; therefore, please `Think before you click`.
+> PLEASE READ THIS!    
+> Since this is an "Open Source" project/repository, we kindly remind you to refrain from disclosing any unnecessary personal information that could be accessed by individuals with ill intentions; therefore, please `Think before you click`.    
 > Of course, we presume that you have already established your GitHub account and installed git/GitHub Desktop on your devices (if applicable).
 
-First Accord is an open-source initiative specifically crafted to guide beginners into the world of GitHub contributions. It provides a friendly, structured approach for those new to open source, aiming to demystify the process and make it less intimidating. The project emphasizes simplicity and accessibility, making it an excellent starting point for anyone looking to make their very first GitHub contribution. Whether you're learning the basics of version control, branching, or collaboration on repositories, First Accord offers a step-by-step process designed to build both your skills and confidence quickly.
+First Accord is an open-source initiative specifically crafted to guide beginners into the world of GitHub contributions. It provides a friendly, structured approach for those new to open source, aiming to break the process and make it less intimidating. The project emphasizes simplicity and accessibility, making it an excellent starting point for anyone looking to make their very first GitHub contribution. First Accord offers a step-by-step process designed to build both your skills and confidence quickly.
 
 Beyond the technical aspects, First Accord also fosters a welcoming community, encouraging collaboration and learning through teamwork. It's not just a project but a supportive environment to help beginners take their initial steps into open source with ease.
 
