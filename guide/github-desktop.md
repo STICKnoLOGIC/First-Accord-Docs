@@ -36,11 +36,11 @@ Now, create a new branch by clicking on the "Current branch" icon at the top and
 
 <img src="/assets/desktop/app-new-branch.png" alt="create branch" />
 
-Name your branch . For example, "sticknologic-name-branch".
+Name your branch. For example, `"sticknologic-name-branch"`.
 
 <img src="/assets/desktop/app-name-branch.png" alt="name branch" />
 
-Then click on `Create branch` button`.
+Then click on `Create branch` button.
 
 ## Make necessary changes and commit those changes
 
