@@ -1,15 +1,16 @@
 # JSON Structure <!-- {docsify-ignore} -->
 
+> [!WARNING]
+> __NO OFFENSIVE LANGUAGE OR ANY INAPPROPRIATE CONTENT THAT COULD HARM THE WEBSITE, THE URL, THE REPOSITORY, AND THE COMMUNITY.__
+
 To contribute in `First Accord`, you must generate a new JSON file in the `contributors` folder by means of a pull request. For instance, if your GitHub username for the pull request is `STICKnoLOGIC`, you should create a file called `sticknologic.json` in the `contributors` folder. The complete path would be `contributors/example.json`.
 
 ## Filename
 
 > [!NOTE]
-> The JSON file's name must correspond to your GitHub username that you use when submitting a pull request; if it does not correspond, it will be automatically closed and won't be merged into the repository. However, your JSON filename must meet the following criteria: 
+> The JSON file's name must correspond to your GitHub username that you use when submitting a pull request; if it does not correspond, it will be automatically closed and won't be merged into the repository.
 
-
-
-the filename of the JSON: 
+your JSON filename must meet the following criteria:
 
 - It must match your GitHub username. 
 - Should consist of letters and numbers, written in lowercase, with dashes serving as dividers. 
@@ -112,10 +113,7 @@ __Example:__
 ```
 
 #### display_float_text (optional|string)
-Display and randomly float this text on the [main page](/). This text serves as evidence that you are a contributor of `First Accord`, even if you remove your contributed JSON. (If you modify this each time you submit a pull request, the prior `display_float_text` will be preserved.) (The more successfully merged PRs you have, the greater the chance your `display_float_text` will appear on the [main page](/)). It must contain a minimum of 4 characters and cannot exceed 12 characters.
-
-> [!WARNING]
-> __NO OFFENSIVE LANGUAGE OR ANY INAPPROPRIATE CONTENT THAT COULD HARM THE WEBSITE, THE URL, THE REPOSITORY, AND THE COMMUNITY.__
+Display and randomly float this text on the [main page](/). This text serves as evidence that you are a contributor of `First Accord`, even if you remove your contributed JSON. It must contain a minimum of 4 characters and cannot exceed 12 characters.
 
 __Example:__
 ```json
@@ -132,7 +130,7 @@ __Example:__
 ```json
 {
     //other value
-    "":"https://valid.path/for/your/avatar/or/pic.png"
+    "custom_avatar_url":"https://valid.path/for/your/avatar/or/pic.png"
 }
 ```
 
