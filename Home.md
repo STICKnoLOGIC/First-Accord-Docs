@@ -1,6 +1,5 @@
 <p align="center" style="text-decoration:none">
     <img alt="Open Source Love" src="/logo_md_l.webp" class="index-logo">
-    <p align="center" style="margin:0;font-size:3.5rem;font-weight:bold">Docs</p>
     <br>
     <!-- BADGES -->
     <a href="https://github.com/STICKnoLOGIC/First-Accord" alt="Open Source Love" style="text-decoration:none">
