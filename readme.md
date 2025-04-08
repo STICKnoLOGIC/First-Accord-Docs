@@ -1,8 +1,8 @@
 <p align="center" style="text-decoration:none">
     <img alt="Open Source Love" src="/logo_md_l.webp" class="index-logo">
-    <p align="center" style="margin:0;font-size:3.5rem;font-weight:bold">Docs</p>
-    <br>
 </p>
+<p align="center" style="margin:0;font-size:3.5rem;font-weight:bold">Docs</p>
+
 
 ### First Accord
  First Accord is an open source project designed to help beginners dive into contributing. It's a simple and beginner-friendly way to get started with GitHub and make your very first contribution. The process is quick, straightforward, and perfect for building your confidence!
