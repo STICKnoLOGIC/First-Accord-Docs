@@ -1,0 +1,14 @@
+on:
+  repository_dispatch:
+    types: [update_contributors]
+
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get htmlList from payload
+        uses: jaywcjlove/github-action-modify-file-content@main
+        with:
+          token: ${{ secrets.FA_TOKEN }}
+          path: Home.md
+          body: '${{ github.event.client_payload.htmlList }}'
