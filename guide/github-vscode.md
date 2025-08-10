@@ -61,7 +61,7 @@ In the next step type in the name of your new branch, for example `sticknologic-
 
 Go to the `contributors` Folder/Directory and copy the content of `__TEMPLATES__.json` (the template consists of essential/required parameters in JSON structure. To know more, [visit JSON Structure](json-structure))
 
-Now in `contributors` Directory, Create a json file `this-is-you.json`(where `this-is-you` is your Github username, in my case its `sticknologic.json`), Open the created json file in a text editor/IDE you prefer and paste the content you copied from the `__TEMPLATE__.json`, edit the json file([click here to know more about Json Structure](json-structure)). Now, save the file.
+Now in `contributors` Directory, Create a json file `this-is-you.json`(where `this-is-you` is your Github username, in my case its `sticknologic.json`), Open the created json file in a text editor/IDE you prefer and paste the content you copied from the `sticknlologic.json`, edit the json file([click here to know more about Json Structure](json-structure)). Now, save the file.
 
 <img src="/assets/vscode/changes.png" alt="Add your contribution" />
 

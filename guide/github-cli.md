@@ -56,7 +56,7 @@ git checkout -b sticknologic-branch
 cd contributors
 ```
 
-Now in `contributors` Directory, Create a json file `this-is-you.json`(where `this-is-you` is your Github username), Open the created json file in a text editor and paste the content you copied from the `__TEMPLATE__.json`, edit the json file([click here to know more about Json Structure](json-structure)). Now, save the file.
+Now in `contributors` Directory, Create a json file `this-is-you.json`(where `this-is-you` is your Github username), Open the created json file in a text editor and paste the content you copied from the `sticknlologic.json`, edit the json file([click here to know more about Json Structure](json-structure)). Now, save the file.
 
 
 If you go to the project directory and execute the command `git status`, you'll see there are changes.

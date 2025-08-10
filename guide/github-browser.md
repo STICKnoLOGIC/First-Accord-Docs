@@ -50,7 +50,7 @@ Enter `contributors/your-username.json` in the field, replacing `your-username` 
 
 <img src="/assets/web/edit.png" alt="edit file">
 
-In the text area, paste the content copied from `__TEMPLATE__.json` and edit it as needed. [Visit the JSON structure](json-structure) to learn more about the accepted values and keys in your JSON file.
+In the text area, paste the content copied from `sticknlologic.json` and edit it as needed. [Visit the JSON structure](json-structure) to learn more about the accepted values and keys in your JSON file.
 
 <img src="/assets/web/commit.png" alt="commit file">
 
@@ -85,4 +85,4 @@ Let's help you get started with contributing to other projects. I recommend begi
 ## Tutorials Using Other Tools
 | <img alt="cli" src="https://raw.githubusercontent.com/felixse/FluentTerminal/refs/heads/master/Icons/Icon_no_margin.png" width="100"> | <img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"> | <img alt="VS Code" src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Visual_Studio_Code_1.35_icon.png" width=100> |
 | :------------------: | :------------------: | :------------------: |
-| [Command Line Interface](guide/github-cli) | [GitHub Desktop](guide/github-desktop) | [Visual Studio Code](docs/gui-tool-tutorials/github-vscode)
+| [Command Line Interface](guide/github-cli) | [GitHub Desktop](guide/github-desktop) | [Visual Studio Code](docs/guide/github-vscode)

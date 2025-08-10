@@ -27,7 +27,7 @@
      </a>
     <br><br>
     <!-- STATUS -->
-    <img alt="contributor" src="https://img.shields.io/github/directory-file-count/sticknologic/first-accord/contributors/names?color=orange&label=CONTRIBUTOR&style=flat">
+    <img alt="contributor" src="https://img.shields.io/github/directory-file-count/sticknologic/first-accord/util/names?color=orange&label=CONTRIBUTOR&style=flat">
     <img alt="contributor" src="https://img.shields.io/github/issues-raw/sticknologic/first-accord?color=orange&label=ISSUE&style=flat">
     <img alt="contributor" src="https://img.shields.io/github/issues-pr-raw/sticknologic/first-accord?color=orange&label=PULL&style=flat">
 </p>
@@ -54,4 +54,4 @@ You can Support us by:
   [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=flat&logo=paypal&logoColor=white)](https://paypal.me/yhalSTICKnoLOGIC)
 
 ## Contributor/s
-[![Contributors](https://contrib.rocks/image?repo=STICKnoLOGIC/first-accord)](https://contrib.rocks/preview?repo=STICKnoLOGIC%2FFirst-Accord)
+<!--GAMFC--><!--GAMFC-END-->

@@ -46,7 +46,7 @@ Then click on `Create branch` button.
 
  Go to the `contributors` Folder/Directory and copy the content of `__TEMPLATES__.json` (the template consists of essential/required parameters in JSON structure. To know more, [visit JSON Structure](json-structure))
 
-Now in `contributors` Directory, Create a json file `this-is-you.json`(where `this-is-you` is your Github username, in my case its `sticknologic.json`), Open the created json file in a text editor/IDE you prefer and paste the content you copied from the `__TEMPLATE__.json`, edit the json file([click here to know more about Json Structure](json-structure)). Now, save the file.
+Now in `contributors` Directory, Create a json file `this-is-you.json`(where `this-is-you` is your Github username, in my case its `sticknologic.json`), Open the created json file in a text editor/IDE you prefer and paste the content you copied from the `sticknlologic.json`, edit the json file([click here to know more about Json Structure](json-structure)). Now, save the file.
 
 You can see that there are changes to contributors Folder as you create your JSON file and they have been added to the Github Desktop.
 
