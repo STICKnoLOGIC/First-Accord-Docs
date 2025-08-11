@@ -21,5 +21,6 @@ jobs:
       - name: Update README.md
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
+          token: ${{ secrets.FA_WF }}
           path: Home.md
           body: ${{ env.htmlList }}
