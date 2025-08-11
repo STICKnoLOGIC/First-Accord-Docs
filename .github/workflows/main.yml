@@ -6,9 +6,20 @@ jobs:
   update-docs:
     runs-on: ubuntu-latest
     steps:
-      - name: Get htmlList from payload
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Decode htmlListBase64
+        id: decode
+        run: |
+          echo "${{ github.event.client_payload.htmlListBase64 }}" | base64 --decode > html_list.html
+          # Save as output for next step
+          echo "htmlList<<EOF" >> $GITHUB_ENV
+          cat html_list.html >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Update README.md
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
-          token: ${{ secrets.FA_TOKEN }}
           path: Home.md
-          body: '${{ github.event.client_payload.htmlList }}'
+          body: ${{ env.htmlList }}
