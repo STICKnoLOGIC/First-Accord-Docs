@@ -78,7 +78,9 @@ Congratulations! You have successfully completed the standard workflow: `fork ->
 
 You are welcome to join our community or group if you need assistance or have any questions.
 
-[![Join Telegram Group](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/+D51ix1qENBs0ZWRI)
+[![GitHub Discussions](https://img.shields.io/github/discussions/sticknologic/first-accord)](https://img.shields.io/github/discussions/sticknologic/first-accord
+)
+
 
 Let's help you get started with contributing to other projects. I recommend beginning with [First Contribution](https://github.com/firstcontributions/first-contributions). This project was heavily inspired by it, just so you know!
 
